@@ -1,0 +1,43 @@
+/* * {
+   outline: 1px solid red !important;
+} */
+
+.container {
+    padding: 30px;
+    width: 950px;
+}
+
+.title {
+    background-color: #3F51B6;
+    font-size: x-large;
+    font-style: bold;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.content {
+    display: flex;
+    padding-top: 20px;
+    
+ }
+ 
+ .image {
+    flex: 1;
+    float: left;
+ }
+ 
+ .description {
+    flex: 2;
+    padding: 0px 10px 0px 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+ }
+ 
+ img {
+    width: 100%;
+ }
+ 
