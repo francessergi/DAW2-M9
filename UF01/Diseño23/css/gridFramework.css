@@ -1,25 +1,13 @@
-* {
+/* * {
     border: 1px solid red;
     padding: 0.5rem;
     box-sizing: border-box;
-}
-
-
-/* [class|="col"]:first-child {
-    margin-left: 0px;
-}
-
-[class|="col"]:last-child {
-    margin-right: 0px;
-}
-
-[class|="col"] {
-    margin: 0px 0.25rem;
 } */
 
-[class|="col"]+[class|="col"] {
+
+/* [class|="col"]+[class|="col"] {
     margin-left: 0.5rem;
-}
+} */
 
 img {
     max-width: 100%;
@@ -31,6 +19,7 @@ img {
 }
 
 .row {
+    border: 1px solid rgb(7, 185, 67);
     width: 100%;
     display: flex;
 }

@@ -5,104 +5,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style03.css">
+    <link rel="stylesheet" href="./css/style04.css">
+    <link rel="stylesheet" href="./css/gridFramework.css">
 </head>
 
-<body>
-    body 700x700
-    <main>
+<body class="main-container">
 
-        <header>
+    <!-- ######################### HEADER ####################### -->
+    <header class="row">
+        <div class="col-4 menu">
+            <img src="./img/menu.png" alt="menu">
+        </div>
+        <div class="col-3 logo">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <nav class="row">
+            <p class="col-4">
+                <a href="#home">01.</a>home</p>
+            <p class="col-4">
+                <a href="#about">02.</a>item</p>
+            <p class="col-4">
+                <a href="#properties">03.</a>item</p>
+            <p class="col-4">
+                <a href="#clients">04.</a>item</p>
+            <p class="col-4">
+                <a href="#contact">05.</a>item</p>
+            <p class="col-3">
+                <a href="">telefono</a></p>
+        </nav>
+    </header>
 
-            <div class="menu">
-                <img src="./img/menu.png" alt="menu">
+    <!-- ######################### HOME ######################### -->
+    <div id="home" class="row">
+        <div class="col-6 description">
+            <h2>let us find your dream home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ut nesciunt quos qui corporis</p>
+        </div>
+
+        <div class="col-6">
+            <form action=""></form>
+            <div class="col-3">RRSS</div>
+        </div>
+    </div>
+
+    <!-- ######################### ABOUT ######################## -->
+    <div id="about" class="row description">
+        <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <h2>we are property and consulting agency</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <div class="row profile-container">
+        <div class="col-2 profile">
+            <img src="./img/cara1.jpg" alt="profilePhoto">
+            <h4>Marc J Stevens</h4>
+            <p>real state agent</p>
+        </div>
+        <div class="col-2 profileMid">
+            <img src="./img/cara2.jpg" alt="profilePhoto">
+            <h4>Richard Stevens</h4>
+            <p>real state agent</p>
+        </div>
+        <div class="col-2 profile">
+            <img src="./img/cara3.jpg" alt="profilePhoto">
+            <h4>Lisa Warrior</h4>
+            <p>real state agent</p>
+        </div>
+    </div>
+
+    <!-- ######################### PROPERTIES ################### -->
+    <div id="properties" class="row">
+        <div class="col-4">
+            <h5>most afordable properties</h5>
+            <h3>a beautiful luxuries home in centre of new york</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius optio illo, neque aut pariatur veritatis assumenda laborum accusantium veniam enim amet.</p>
+        </div>
+    </div>
+
+    <div class="row description">
+        <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <h2>premium and consulting agency</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus asperiores magni velit aliquid aliquam expedita, placeat explicabo? Obcaecati praesentium vitae ea explicabo aspernatur</p>
+        </div>
+    </div>
+
+    <div class="row properties">
+        <div class="col-7 house-container">
+            <div class="col-4 house">
+                <img src="./img/casa1.jpg" alt="housePhoto">
+                <h5>hawai</h5>
+                <h4>2000€</h4>
             </div>
-
-            <div class="logo">
-                <img src="./img/logo.png" alt="logo">
+            <div class="col-4 house">
+                <img src="./img/casa2.jpg" alt="housePhoto">
+                <h5>hawai</h5>
+                <h4>2000€</h4>
             </div>
+            <div class="col-4 house">
+                <img src="./img/casa3.jpg" alt="housePhoto">
+                <h5>hawai</h5>
+                <h4>2000€</h4>
+            </div>
+            <div class="col-4 house">
+                <img src="./img/casa4.jpg" alt="housePhoto">
+                <h5>hawai</h5>
+                <h4>2000€</h4>
+            </div>
+            <div class="col-4 house">
+                <img src="./img/casa5.jpg" alt="housePhoto">
+                <h5>hawai</h5>
+                <h4>2000€</h4>
+            </div>
+            <div class="col-4 house">
+                <img src="./img/casa6.jpg" alt="housePhoto">
+                <h5>hawai</h5>
+                <h4>2000€</h4>
+            </div>
+        </div>
 
-            <nav>
-                <ol>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="">properties</a></li>
-                    <li><a href="">clients</a></li>
-                    <li><a href="">contacte</a></li>
-                    <a href="" class="telefon">73376627</a>
-                </ol>
-            </nav>
+    </div>
 
-        </header>
+    <!-- ######################### CLIENTS ###################### -->
+    <div id="clients" class="row">
 
-        <section id="home">
-            <div class="overlay"></div>
-            <article class="text">
+        <div class="col-3 description">
+            <p>Lorem ipsum dolor sit</p>
+            <h2>happy customers</h2>
+        </div>
 
-                <h3>let us find your dream home</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti necessitatibus.</p>
-            </article>
-            <article class="form">
-                <h5>search properties</h5>
-                <a>get matching result</a>
-            </article>
-            <article class="aside">
-                <ul>
-                    <li>
-                        <logo><img src="./img/facebook.png" alt="facebook"></logo>
-                    </li>
-                    <li>
-                        <logo><img src="./img/twitter.png" alt="twitter"></logo>
-                    </li>
-                    <li>
-                        <logo><img src="./img/instagram.png" alt="instagram"></logo>
-                    </li>
-                    <li>
-                        <logo><img src="./img/linkedin.png" alt="linkedin"></logo>
-                    </li>
-                </ul>
-            </article>
-        </section>
+    </div>
 
-        <section id="about">
-            <article class="text">
-                <p>Lorem ipsum dolor sit amet</p>
-                <h3>we are property and <span>consulting</span> agency</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias fuga, voluptate perspiciatis sint cumque velit</p>
-            </article>
+    <div class="row">
+        <div class="col-2">
+            <img src="./img/cara3.jpg" alt="fotoPerfil">
+            <h4>Lisa Warrior</h4>
+            <p>New Yorker</p>
+        </div>
+        <div class="col-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit eos sapiente aspernatur ipsum! Iure eaque quia, laudantium excepturi obcaecati fuga nam. Amet laboriosam quae perspiciatis nobis a molestias? Pariatur.</p>
+        </div>
+    </div>
 
-            <article class="personas">
-                <figure class="p1">
-                    <img src="./img/cara1.jpg" alt="foto">
-                    <figcaption>
-                        <h5>Mark J Stevens</h5>
-                        <p>Real State Agent</p>
-                    </figcaption>
-                </figure>
-                <figure class="p2">
-                    <img src="./img/cara2.png" alt="foto">
-                    <figcaption>
-                        <h5>Richard Stevens</h5>
-                        <p>Real State Agent</p>
-                    </figcaption>
-                </figure>
-                <figure class="p3">
-                    <img src="./img/cara3.jpg" alt="foto">
-                    <figcaption>
-                        <h5>Lisa Warrior</h5>
-                        <p>Real State Agent</p>
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
+    <!-- ######################### CONTACT ###################### -->
+    <div class="row">
+        <div class="col-4">
+            <h2>get in touch</h2>
+            <form action=""></form>
+        </div>
+        <div class="col-3">
+            <h2>our location</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur </p>
+            <p><img src="" alt="">direccio</p>
+            <p><img src="" alt="">telefon</p>
+            <p><img src="" alt="">email</p>
+        </div>
+    </div>
 
-        <section id="properties">
+    <div class="row">
+        <col-2>RRSS</col-2>
+        <col-2>copyright</col-2>
+    </div>
 
-        </section>
-
-
-
-    </main>
 </body>
 
 </html>
