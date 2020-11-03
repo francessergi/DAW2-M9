@@ -1,13 +1,8 @@
-/* * {
-    border: 1px solid red;
-    padding: 0.5rem;
+* {
+    /* border: 1px solid red; */
+    /* padding: 0.5rem; */
     box-sizing: border-box;
-} */
-
-
-/* [class|="col"]+[class|="col"] {
-    margin-left: 0.5rem;
-} */
+}
 
 img {
     max-width: 100%;
@@ -15,11 +10,11 @@ img {
 
 .main-container {
     margin: auto;
-    max-width: 960px;
+    max-width: 120rem;
 }
 
 .row {
-    border: 1px solid rgb(7, 185, 67);
+    /* border: 1px solid rgb(7, 185, 67); */
     width: 100%;
     display: flex;
 }

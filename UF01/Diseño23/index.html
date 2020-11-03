@@ -7,63 +7,84 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style04.css">
     <link rel="stylesheet" href="./css/gridFramework.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- Estrellas puntuación -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body class="main-container">
 
     <!-- ######################### HEADER ####################### -->
-    <header class="row">
-        <div class="col-4 menu">
+    <header class="row navegador">
+
+        <div class="col-1 desplegable">
             <img src="./img/menu.png" alt="menu">
         </div>
-        <div class="col-3 logo">
-            <img src="./img/logo.png" alt="logo">
+
+        <div class="col-1 logo-container">
+            <form class="logo"></form>
         </div>
-        <nav class="row">
+
+
+        <nav class="col-8 nav-container">
             <p class="col-4">
-                <a href="#home">01.</a>home</p>
+                <a href="#home">01.</a>home
+            </p>
             <p class="col-4">
-                <a href="#about">02.</a>item</p>
+                <a href="#about">02.</a>item
+            </p>
             <p class="col-4">
-                <a href="#properties">03.</a>item</p>
+                <a href="#properties">03.</a>item
+            </p>
             <p class="col-4">
-                <a href="#clients">04.</a>item</p>
+                <a href="#clients">04.</a>item
+            </p>
             <p class="col-4">
-                <a href="#contact">05.</a>item</p>
-            <p class="col-3">
-                <a href="">telefono</a></p>
+                <a href="#contact">05.</a>item
+            </p>
         </nav>
+
+        <a href="" class="col-1 phone">+16311234567</a>
+
+
     </header>
 
+
+
     <!-- ######################### HOME ######################### -->
+
+
     <div id="home" class="row">
-        <div class="col-6 description">
-            <h2>let us find your dream home</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ut nesciunt quos qui corporis</p>
+
+        <!-- <img src="./img/fondo.jpg" alt="casaFondo"> -->
+        <div class="col-6 content">
+            <article>
+                <h2>let us find your dream home</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ut nesciunt quos qui corporis</p>
+            </article>
         </div>
 
-        <div class="col-6">
-            <form action=""></form>
-            <div class="col-3">RRSS</div>
-        </div>
+
+
     </div>
 
     <!-- ######################### ABOUT ######################## -->
-    <div id="about" class="row description">
-        <div class="col-4">
+    <div id="about" class="row">
+        <div class="col-4 intro">
             <p>Lorem ipsum dolor sit amet consectetur</p>
-            <h2>we are property and consulting agency</h2>
+            <h2>we are property and <span>consulting</span> agency</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
 
     <div class="row profile-container">
         <div class="col-2 profile">
-            <img src="./img/cara1.jpg" alt="profilePhoto">
+            <img src="./img/cara3.jpg" alt="profilePhoto">
             <h4>Marc J Stevens</h4>
             <p>real state agent</p>
         </div>
-        <div class="col-2 profileMid">
+        <div class="col-2 profile mid">
             <img src="./img/cara2.jpg" alt="profilePhoto">
             <h4>Richard Stevens</h4>
             <p>real state agent</p>
@@ -77,53 +98,128 @@
 
     <!-- ######################### PROPERTIES ################### -->
     <div id="properties" class="row">
-        <div class="col-4">
+        <article class="house">
             <h5>most afordable properties</h5>
             <h3>a beautiful luxuries home in centre of new york</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius optio illo, neque aut pariatur veritatis assumenda laborum accusantium veniam enim amet.</p>
-        </div>
+        </article>
     </div>
 
     <div class="row description">
         <div class="col-4">
             <p>Lorem ipsum dolor sit amet consectetur</p>
-            <h2>premium and consulting agency</h2>
+            <h2>premium and <span>consulting</span> agency</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus asperiores magni velit aliquid aliquam expedita, placeat explicabo? Obcaecati praesentium vitae ea explicabo aspernatur</p>
         </div>
     </div>
 
     <div class="row properties">
         <div class="col-7 house-container">
-            <div class="col-4 house">
-                <img src="./img/casa1.jpg" alt="housePhoto">
-                <h5>hawai</h5>
-                <h4>2000€</h4>
+            <!-- UNA CASA -->
+            <div class="house">
+                <div class="foto">
+                    <img src="./img/casa1.jpg" alt="casa">
+                </div>
+                <div class="text">
+                    <h3 class="city">New York</h3>
+                    <h2 class="price">$2500</h2>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
             </div>
-            <div class="col-4 house">
-                <img src="./img/casa2.jpg" alt="housePhoto">
-                <h5>hawai</h5>
-                <h4>2000€</h4>
+
+            <div class="house">
+                <div class="foto">
+                    <img src="./img/casa2.jpg" alt="casa">
+                </div>
+                <div class="text">
+                    <h3 class="city">Toronto</h3>
+                    <h2 class="price">$3000</h2>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
             </div>
-            <div class="col-4 house">
-                <img src="./img/casa3.jpg" alt="housePhoto">
-                <h5>hawai</h5>
-                <h4>2000€</h4>
+
+            <div class="house">
+                <div class="foto">
+                    <img src="./img/casa3.jpg" alt="casa">
+                </div>
+                <div class="text">
+                    <h3 class="city">Canada</h3>
+                    <h2 class="price">$5400</h2>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
             </div>
-            <div class="col-4 house">
-                <img src="./img/casa4.jpg" alt="housePhoto">
-                <h5>hawai</h5>
-                <h4>2000€</h4>
+
+            <div class="house">
+                <div class="foto">
+                    <img src="./img/casa4.jpg" alt="casa">
+                </div>
+                <div class="text">
+                    <h3 class="city">Palma de Mallorca</h3>
+                    <h2 class="price">$1200</h2>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
             </div>
-            <div class="col-4 house">
-                <img src="./img/casa5.jpg" alt="housePhoto">
-                <h5>hawai</h5>
-                <h4>2000€</h4>
+
+            <div class="house">
+                <div class="foto">
+                    <img src="./img/casa5.jpg" alt="casa">
+                </div>
+                <div class="text">
+                    <h3 class="city">Seul</h3>
+                    <h2 class="price">$9900</h2>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
             </div>
-            <div class="col-4 house">
-                <img src="./img/casa6.jpg" alt="housePhoto">
-                <h5>hawai</h5>
-                <h4>2000€</h4>
+
+            <div class="house">
+                <div class="foto">
+                    <img src="./img/casa6.jpg" alt="casa">
+                </div>
+                <div class="text">
+                    <h3 class="city">Barcelona</h3>
+                    <h2 class="price">$9876</h2>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
             </div>
+
+
+
         </div>
 
     </div>
@@ -138,8 +234,8 @@
 
     </div>
 
-    <div class="row">
-        <div class="col-2">
+    <div class="row custommer">
+        <div class="col-2 perfil">
             <img src="./img/cara3.jpg" alt="fotoPerfil">
             <h4>Lisa Warrior</h4>
             <p>New Yorker</p>
@@ -150,12 +246,12 @@
     </div>
 
     <!-- ######################### CONTACT ###################### -->
-    <div class="row">
-        <div class="col-4">
+    <div id="contact" class="row">
+        <div class="col-3">
             <h2>get in touch</h2>
             <form action=""></form>
         </div>
-        <div class="col-3">
+        <div class="col-4">
             <h2>our location</h2>
             <p>Lorem, ipsum dolor sit amet consectetur </p>
             <p><img src="" alt="">direccio</p>
@@ -164,9 +260,9 @@
         </div>
     </div>
 
-    <div class="row">
-        <col-2>RRSS</col-2>
-        <col-2>copyright</col-2>
+    <div class="row credits">
+        <p class="col-6">RRSS</p>
+        <p class="col-6">copyright</p>
     </div>
 
 </body>
