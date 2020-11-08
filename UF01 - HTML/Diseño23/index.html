@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/style04.css">
     <link rel="stylesheet" href="./css/gridFramework.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
     <!-- Estrellas puntuación -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -16,48 +18,43 @@
 <body class="main-container">
 
     <!-- ######################### HEADER ####################### -->
-    <header class="row navegador">
-
-        <div class="col-1 desplegable">
-            <img src="./img/menu.png" alt="menu">
+    <header>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
 
-        <div class="col-1 logo-container">
-            <form class="logo"></form>
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
         </div>
 
 
-        <nav class="col-8 nav-container">
-            <p class="col-4">
-                <a href="#home">01.</a>home
-            </p>
-            <p class="col-4">
-                <a href="#about">02.</a>item
-            </p>
-            <p class="col-4">
-                <a href="#properties">03.</a>item
-            </p>
-            <p class="col-4">
-                <a href="#clients">04.</a>item
-            </p>
-            <p class="col-4">
-                <a href="#contact">05.</a>item
-            </p>
-        </nav>
+        <ol class="nav-links">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a></li>
+            <li>
+                <a href="#properties">Properties</a></li>
+            <li>
+                <a href="#clients">Clients</a></li>
+            <li>
+                <a href="#contact">Contact</a></li>
+        </ol>
 
-        <a href="" class="col-1 phone">+16311234567</a>
-
+        <div class="telefono">
+            <img src="./img/whats.png" alt="whats">
+            <p>+1 631 123 4567</p>
+        </div>
 
     </header>
-
-
+    <script src="./app.js"></script>
 
     <!-- ######################### HOME ######################### -->
-
-
     <div id="home" class="row">
 
-        <!-- <img src="./img/fondo.jpg" alt="casaFondo"> -->
         <div class="col-6 content">
             <article>
                 <h2>let us find your dream home</h2>
@@ -65,7 +62,23 @@
             </article>
         </div>
 
+        <div class="form-container">
+            <form action="search_properties.php" method="POST">
+                <h3>search properties</h3>
+                <p>What are you looking for?</p>
+                <input name="usuari" type="text" /><br />
+                <input name="clau" type="password" /><br />
+                <input type="submit" value="submit" /><br />
+            </form>
+        </div>
 
+        <div class="RRSS">
+            <div class="r"><img src="./img/wface.png" alt="im"></div>
+            <div class="r"><img src="./img/wwhats.png" alt="im"></div>
+            <div class="r"><img src="./img/winsta.png" alt="im"></div>
+            <div class="r"><img src="./img/wtwitter.png" alt="im"></div>
+            <div class="r"><img src="./img/wlinkedin.png" alt="im"></div>
+        </div>
 
     </div>
 
@@ -98,11 +111,15 @@
 
     <!-- ######################### PROPERTIES ################### -->
     <div id="properties" class="row">
-        <article class="house">
-            <h5>most afordable properties</h5>
-            <h3>a beautiful luxuries home in centre of new york</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius optio illo, neque aut pariatur veritatis assumenda laborum accusantium veniam enim amet.</p>
-        </article>
+        <div class="inside">
+
+            <article>
+                <h5>most afordable properties</h5>
+                <h3>a beautiful luxuries home in centre of new york</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius optio illo, neque aut pariatur veritatis assumenda laborum accusantium veniam enim amet.</p>
+            </article>
+        </div>
+
     </div>
 
     <div class="row description">
@@ -114,7 +131,7 @@
     </div>
 
     <div class="row properties">
-        <div class="col-7 house-container">
+        <div class="col-9 house-container">
             <!-- UNA CASA -->
             <div class="house">
                 <div class="foto">
@@ -227,42 +244,84 @@
     <!-- ######################### CLIENTS ###################### -->
     <div id="clients" class="row">
 
-        <div class="col-3 description">
-            <p>Lorem ipsum dolor sit</p>
-            <h2>happy customers</h2>
+        <div class="col-12 intro">
+            <article>
+                <p>Lorem ipsum dolor sit</p>
+                <h2>happy customers</h2>
+            </article>
         </div>
+
+        <div class="col-12 review">
+
+            <div class="col-2 profile">
+                <img src="./img/cara3.jpg" alt="fotoPerfil">
+                <h4>Lisa Warrior</h4>
+                <p>New Yorker</p>
+            </div>
+
+            <div class="col-5 opinion">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit eos sapiente aspernatur ipsum! Iure eaque quia, laudantium excepturi obcaecati fuga nam. Amet laboriosam quae perspiciatis nobis a molestias? Pariatur.</p>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+
+        </div>
+
 
     </div>
 
-    <div class="row custommer">
-        <div class="col-2 perfil">
-            <img src="./img/cara3.jpg" alt="fotoPerfil">
-            <h4>Lisa Warrior</h4>
-            <p>New Yorker</p>
-        </div>
-        <div class="col-3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit eos sapiente aspernatur ipsum! Iure eaque quia, laudantium excepturi obcaecati fuga nam. Amet laboriosam quae perspiciatis nobis a molestias? Pariatur.</p>
-        </div>
-    </div>
+
 
     <!-- ######################### CONTACT ###################### -->
     <div id="contact" class="row">
-        <div class="col-3">
+
+        <div class="col-3 form">
             <h2>get in touch</h2>
-            <form action=""></form>
         </div>
-        <div class="col-4">
+
+        <div class="col-3 location">
             <h2>our location</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur </p>
-            <p><img src="" alt="">direccio</p>
-            <p><img src="" alt="">telefon</p>
-            <p><img src="" alt="">email</p>
+            <p>Lorem, ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur </p>
+
+            <div class="telefono">
+                <img src="./img/whats.png" alt="whats">
+                <p>123 Park Avenue, New York, United States</p>
+            </div>
+            <div class="telefono">
+                <img src="./img/whats.png" alt="whats">
+                <p>+1 631 123 4567</p>
+                <p>+1 631 123 4567</p>
+            </div>
+            <div class="telefono">
+                <img src="./img/whats.png" alt="whats">
+                <p>email@website.com</p>
+            </div>
+
+
         </div>
     </div>
 
     <div class="row credits">
-        <p class="col-6">RRSS</p>
-        <p class="col-6">copyright</p>
+
+        <div class="col-3 RRSS">
+            <div class="r"><img src="./img/whatsb.png" alt="im"></div>
+            <div class="r"><img src="./img/facebook.png" alt="im"></div>
+            <div class="r"><img src="./img/instagram.png" alt="im"></div>
+            <div class="r"><img src="./img/twitter.png" alt="im"></div>
+            <div class="r"><img src="./img/linkedin.png" alt="im"></div>
+            <div class="r"><img src="./img/pinterest.png" alt="im"></div>
+        </div>
+
+        <div class="col-3 cop">
+            <p>©2020 Made with Love Sergi Francés Roca</p>
+        </div>
+
+
     </div>
 
 </body>

@@ -1,0 +1,474 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*######################### HEADER #######################*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    position: fixed;
+    width: 100%;
+    height: 4.375em;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.logo img {
+    width: 5em;
+    position: absolute;
+    top: 0;
+    margin-top: 1.5em;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 60%;
+    /* margin: 8px 0 8px 10%; */
+    margin-left: 10%;
+}
+
+.nav-links li {
+    list-style-type: decimal-leading-zero;
+    color: #CBCBCB;
+    font-size: 1.75em;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 0.6em;
+    font-style: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-links li:hover {
+    color: #FF421F;
+}
+
+.telefono {
+    text-decoration: none;
+    font-size: 1em;
+    font-style: bold;
+    color: #FF421F;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.telefono img {
+    height: 1em;
+    margin-right: 0.25em;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 1.5625em;
+    height: 0.1875em;
+    background-color: black;
+    margin: 0.3125em;
+    transition: all 0.3s ease;
+}
+
+
+/* @media screen and (max-width: 64em) {
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        padding-left: 5%;
+    }
+} */
+
+@media screen and (max-width: 64em) {
+    body {
+        overflow-x: hidden;
+    }
+    .logo {
+        margin-left: initial;
+    }
+    .nav-links {
+        position: absolute;
+        margin: initial;
+        left: 0em;
+        height: 92vh;
+        top: 4.375em;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .nav-links li {
+        opacity: 0;
+        font-size: initial;
+        margin-left: 10%;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(3.125em);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(opx);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-0.3125em, 0.375em);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-0.3125em, -0.375em);
+}
+
+
+/*######################### HOME #########################*/
+
+#home {
+    padding-top: 4.375em;
+    background-image: linear-gradient(to left, rgba(15, 28, 80, 0.9), rgba(34, 85, 182, 0.9)), url("../img/fondo.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 41em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#home .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home article {
+    align-items: center;
+    width: 50%;
+}
+
+.form-container {
+    background-color: rgba(34, 85, 182, 0.7);
+    width: 30%;
+    height: 20%;
+}
+
+#home .form {
+    padding: 1em;
+}
+
+#home .RRSS {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    height: 30%;
+}
+
+#home .RRSS img {
+    width: 1.25em;
+}
+
+@media screen and (max-width: 48em) {
+    #home {
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+    #home .content {
+        width: 100%;
+        text-align: center;
+        margin: 2em 0 2em 0;
+        display: flex;
+        justify-content: center;
+    }
+    #home .RRSS {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+        width: 30%;
+        height: fit-content;
+    }
+}
+
+
+/*######################### ABOUT ########################*/
+
+#about {
+    padding-top: 6.25em;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.intro {
+    margin-bottom: 1.5625em;
+}
+
+.profile-container {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 9.375em;
+}
+
+span {
+    color: #FF431F;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 11.25em;
+    height: auto;
+}
+
+.profile.mid {
+    margin: 5em 4em 0 3.5em;
+}
+
+
+/*######################### PROPERTIES ###################*/
+
+#properties {
+    background-image: url("../img/casa4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 41.5625em;
+    align-items: center;
+}
+
+#properties .inside {
+    background-color: rgba(46, 49, 49, 0.9);
+    width: 33%;
+    height: 26em;
+    color: white;
+    margin-left: 21%;
+}
+
+#properties article {
+    padding: 1em 7em 2em 0.8em;
+}
+
+#properties article h3 {
+    padding: 2em 0 2em 0;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 56em) {
+    #properties .inside {
+        width: 66%;
+        height: fit-content;
+    }
+    #properties article {
+        padding: 1em 4em 2em 0.8em;
+    }
+}
+
+#properties h5 {
+    text-transform: capitalize;
+    color: #FF431F;
+}
+
+#properties h3 {
+    text-transform: uppercase;
+}
+
+.properties {
+    justify-content: center;
+}
+
+.description {
+    justify-content: center;
+    text-align: center;
+    margin-top: 8.125em;
+    margin-bottom: 5.313em;
+}
+
+.description h2 {
+    margin-bottom: 1em;
+}
+
+.house-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-bottom: 7em;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 64em) {
+    .col-9.house-container {
+        width: 100%;
+    }
+}
+
+
+/* FOTOS DE CASAS */
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.stars {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.text h2 {
+    color: #FF431F;
+    flex: content;
+    font-size: 1.2em;
+}
+
+.house {
+    border: 0.0625em black;
+    box-shadow: 0em 0.625em 1.125em #888888;
+    margin-bottom: 4em;
+}
+
+.foto img {
+    height: 14em;
+    width: 17em;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 48em) {
+    .col-9.house-container {
+        width: 100%;
+    }
+    .foto img {
+        height: auto;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+
+.checked {
+    color: orange;
+}
+
+
+/*######################### CLIENTS ######################*/
+
+#clients {
+    padding-top: 6.25em;
+    flex-wrap: wrap;
+}
+
+#clients .intro {
+    background-image: url("../img/casa1.jpg");
+    background-size: cover;
+    height: 18.75em;
+    display: flex;
+    justify-content: center;
+}
+
+#clients article {
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: fit-content;
+    align-self: center;
+}
+
+.review {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: -5%;
+}
+
+.opinion {
+    height: fit-content;
+}
+
+#clients .profile {
+    text-align: center;
+}
+
+#clients img {
+    border-radius: 50%;
+    width: 8.125em;
+}
+
+
+/*######################### ABOUT ########################*/
+
+#contact {
+    padding-top: 6.25em;
+    justify-content: space-around;
+    margin-bottom: 7.5em;
+}
+
+#contact form {
+    background-color: #FF431F;
+    width: 31.25em;
+    height: 18.75em;
+}
+
+.location p {
+    padding: 1em 0 1em 0;
+}
+
+.credits {
+    margin-bottom: 6em;
+    justify-content: space-around;
+}
+
+.RRSS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.RRSS img {
+    width: 1.25em;
+}

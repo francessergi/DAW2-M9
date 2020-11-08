@@ -8,13 +8,7 @@ img {
     max-width: 100%;
 }
 
-.main-container {
-    margin: auto;
-    max-width: 120rem;
-}
-
 .row {
-    /* border: 1px solid rgb(7, 185, 67); */
     width: 100%;
     display: flex;
 }
