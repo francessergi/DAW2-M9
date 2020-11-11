@@ -63,12 +63,41 @@
         </div>
 
         <div class="form-container">
-            <form action="search_properties.php" method="POST">
+            <form action="" method="POST">
                 <h3>search properties</h3>
-                <p>What are you looking for?</p>
-                <input name="usuari" type="text" /><br />
-                <input name="clau" type="password" /><br />
-                <input type="submit" value="submit" /><br />
+                <div class="lema">
+                    <p>What are you looking for?</p>
+                    <hr>
+                </div>
+                <div class="camp-container">
+                    <div class="camp">
+                        <select class="" name="location">
+                                <option hidden selected>Select Location</option>
+                                <option value="Opcio 1">Barcelona</option>
+                                <option value="Opcio 2">Madrid</option>
+                                <option value="Opcio 3">Sevilla</option>
+                            </select>
+                        <hr>
+                    </div>
+                    <div class="camp">
+                        <select class="" name="propiedad">
+                                <option hidden selected>Property Type</option>
+                                <option value="Opcio 1">Alquiler</option>
+                                <option value="Opcio 2">Compra</option>
+                                <option value="Opcio 3">Compra y alquiler</option>
+                            </select>
+                        <hr>
+                    </div>
+                    <div class="camp">
+                        <input type="text" name="fullname" placeholder="Full Name" />
+                        <hr>
+                    </div>
+                    <div class="camp">
+                        <input type="email" name="email" placeholder="Email Adress" />
+                        <hr>
+                    </div>
+                </div>
+                <input type="submit" value="get matching result">
             </form>
         </div>
 
@@ -280,8 +309,20 @@
     <!-- ######################### CONTACT ###################### -->
     <div id="contact" class="row">
 
-        <div class="col-3 form">
-            <h2>get in touch</h2>
+        <div class="form-container">
+            <form action="" method="POST">
+                <h2>get in touch</h2>
+                <div class="camp-container">
+                    <div class="mini-container">
+                        <input type="text" name="fullname" placeholder="Your Name" />
+                        <input type="email" name="email" placeholder="Email Adress" />
+                        <input type="text" name="subject" placeholder="Subject" />
+                    </div>
+                    <div class="gran-container">
+                        <textarea name="paragraf" class="textarea" placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+            </form>
         </div>
 
         <div class="col-3 location">
@@ -301,9 +342,8 @@
                 <img src="./img/whats.png" alt="whats">
                 <p>email@website.com</p>
             </div>
-
-
         </div>
+
     </div>
 
     <div class="row credits">
