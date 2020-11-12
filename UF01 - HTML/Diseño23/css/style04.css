@@ -358,6 +358,7 @@ span {
     align-self: center;
     margin-bottom: 7em;
     justify-content: space-around;
+    width: 70%;
 }
 
 
@@ -423,7 +424,8 @@ span {
 
 .review {
     display: flex;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
     margin-top: -5%;
 }
 
@@ -431,6 +433,12 @@ span {
     height: fit-content;
     align-self: flex-end;
     width: 40%;
+}
+
+#clients .stars {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 1em;
 }
 
 #clients .profile {
@@ -543,11 +551,8 @@ span {
     #clients {
         margin-bottom: 7%;
     }
-    .col-9.house-container {
-        width: 100%;
-    }
     .review {
-        margin-top: -10%;
+        margin-top: -8%;
     }
     #contact {
         flex-direction: column;
@@ -600,14 +605,29 @@ span {
         margin: unset;
         padding: 1em;
     }
-    .col-9.house-container {
+    .house-container {
         width: 100%;
+    }
+    .house {
+        border: 0.0625em solid black;
+        margin-bottom: 0em;
+        width: 100%;
+    }
+    .foto img {
+        height: auto;
+        width: 100%;
+    }
+    .stars {
+        margin-bottom: 3em;
     }
     .profile {
         width: 25%;
     }
     .profile.mid {
         margin: -2em 2.5em 0 2.5em;
+    }
+    .opinion {
+        width: 74%;
     }
 }
 
