@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#clients .profile {
+    text-align: center;
+    width: fit-content;
+    font-size: 2em;
+}
+
+#clients img {
+    border-radius: 50%;
+    width: 8.125em;
+}
+
+.client-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 28%;
+}
+
+.arrow {
+    width: 0.8em;
+    height: 0.8em;
+    margin-bottom: 10%;
+}
+
+.arrow img {
+    padding: 5px;
+}
+
+.arrow:hover {
+    background-color: red;
+    border-radius: 50%;
+}
