@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.img-item {
+    width: 100%;
+}
+
+.container {
+    border: 1px solid gray;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+#title-l2 {
+    color: #bcbbbb;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.text-item {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #656756;
+    font-weight: bolder;
+}
+
+hr {
+    background-color: #eee;
+    border: 0 none;
+    height: 3px;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.col-sm-4 a {
+    text-decoration: none;
+    color: #656756;
+}

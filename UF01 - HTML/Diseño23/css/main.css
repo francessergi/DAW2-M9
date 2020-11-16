@@ -169,11 +169,13 @@ header {
     align-items: center;
     justify-content: space-between;
     color: white;
+    display: flex;
 }
 
 #home .content {
     display: flex;
     justify-content: space-around;
+    width: 50%;
 }
 
 #home article {
@@ -186,6 +188,7 @@ header {
     flex-direction: column;
     margin-right: 2%;
     height: 30%;
+    width: 1em;
 }
 
 #home .RRSS img {
@@ -270,16 +273,21 @@ select {
     text-align: center;
     margin-top: 4em;
     margin-bottom: 3em;
+    display: flex;
+    width: 100%;
 }
 
 .intro {
-    margin-bottom: 1.5625em;
+    margin-bottom: 1.5em;
+    width: 33%;
 }
 
 .profile-container {
     justify-content: center;
     text-align: center;
     margin-bottom: 9.375em;
+    width: 100%;
+    display: flex;
 }
 
 .profile {
@@ -305,7 +313,7 @@ span {
 
 #properties {
     display: flex;
-    background-image: url("../img/casa4.jpg");
+    background-image: url("../img/casa1.jpg");
     background-size: cover;
     width: 100%;
     height: 41.5625em;
@@ -387,6 +395,8 @@ span {
 
 .properties {
     justify-content: center;
+    display: flex;
+    width: 100%;
 }
 
 .description {
@@ -394,6 +404,12 @@ span {
     text-align: center;
     margin-top: 8.125em;
     margin-bottom: 5.313em;
+    display: flex;
+    width: 100%;
+}
+
+.description div {
+    width: 33%;
 }
 
 .description h2 {
@@ -456,6 +472,8 @@ span {
 #clients {
     padding-top: 6.25em;
     flex-wrap: wrap;
+    display: flex;
+    width: 100%;
 }
 
 #clients .intro {
@@ -464,6 +482,7 @@ span {
     height: 18.75em;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 #clients article {
@@ -479,6 +498,7 @@ span {
     align-items: flex-end;
     justify-content: space-evenly;
     margin-top: -5%;
+    width: 100%;
 }
 
 .opinion {
@@ -523,6 +543,8 @@ span {
     justify-content: space-around;
     margin-bottom: 7.5em;
     height: 23em;
+    width: 100%;
+    display: flex;
 }
 
 .location {
@@ -591,19 +613,26 @@ span {
 
 /* ########### FOOTER ########### */
 
-.credits {
+#credits {
     margin-bottom: 6em;
     justify-content: space-around;
+    width: 100%;
+    display: flex;
 }
 
 .RRSS {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 25%;
 }
 
 .RRSS img {
     width: 1.25em;
+}
+
+.copywright {
+    width: 25%;
 }
 
 
