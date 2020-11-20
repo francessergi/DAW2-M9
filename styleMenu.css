@@ -1,0 +1,22 @@
+h1 {
+    font-size: 8em;
+}
+
+.main-container {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-size: 3em;
+}
