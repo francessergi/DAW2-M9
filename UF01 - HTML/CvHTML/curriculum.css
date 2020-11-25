@@ -4,13 +4,15 @@ body {
 }
 
 main {
-    height: 58.75rem;
+    height: 62.75rem;
     width: 56.25rem;
     background-color: rgb(236, 234, 238);
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 img {
@@ -86,8 +88,16 @@ a {
 
 .Conocimientos {
     width: 19rem;
-    border: 2px solid red;
+    border: 2px solid #26a0d1;
     padding: 1em;
+    margin-left: -1em;
+    background: rgb(211,227,210);
+    background: linear-gradient(125deg, rgba(211,227,210,1) 0%, rgba(245,246,244,1) 100%, rgba(118,247,208,0.9710259103641457) 100%);
+    border-radius: 5px;
+}
+
+li {
+    margin-top: 0.2em;
 }
 
 .lista {
@@ -104,6 +114,10 @@ hr {
 }
 
 section#uno {
+    margin-top: 2em;
+}
+
+section#dos {
     margin-top: 7em;
 }
 
