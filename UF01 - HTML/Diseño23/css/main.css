@@ -48,7 +48,6 @@ header {
     justify-content: space-around;
     font-weight: bold;
     width: 60%;
-    /* margin: 8px 0 8px 10%; */
     margin-left: 10%;
 }
 
@@ -87,73 +86,54 @@ header {
     margin-right: 0.25em;
 }
 
-.burger {
+.dropdown {
     display: none;
-    cursor: pointer;
-}
-
-.burger div {
-    width: 1.5625em;
-    height: 0.1875em;
-    background-color: black;
-    margin: 0.3125em;
-    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 64em) {
-    body {
-        overflow-x: hidden;
-    }
     .logo {
-        margin-left: initial;
+        margin-left: -2em;
     }
     .nav-links {
+        display: none;
+    }
+    /* ##################### W3GUIA ##################### */
+    .dropbtn {
+        color: white;
+        padding: 1rem;
+        font-size: 1rem;
+        border: none;
+    }
+    .dropbtn div {
+        width: 1.6em;
+        height: 0.2em;
+        background-color: black;
+        margin: 0.3em;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
         position: absolute;
-        margin: initial;
-        left: 0em;
-        height: 92vh;
-        top: 4.375em;
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        transform: translateX(-100%);
-        transition: transform 0.5s ease-in;
-        background-color: rgba(255, 255, 255);
+        background-color: #f1f1f1;
+        min-width: 10rem;
+        box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+        z-index: 1;
     }
-    .nav-links li {
-        opacity: 0;
-        margin-left: 30%;
-    }
-    .burger {
+    .dropdown-content a {
+        color: black;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
         display: block;
     }
-}
-
-.nav-active {
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(3.125em);
+    .dropdown-content a:hover {
+        background-color: #ddd;
     }
-    to {
-        opacity: 1;
-        transform: translateX(opx);
+    .dropdown:hover .dropdown-content {
+        display: block;
     }
-}
-
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-0.3125em, 0.375em);
-}
-
-.toggle .line2 {
-    opacity: 0;
-}
-
-.toggle .line3 {
-    transform: rotate(45deg) translate(-0.3125em, -0.375em);
 }
 
 
@@ -554,7 +534,21 @@ span {
 }
 
 .location p {
-    padding: 1em 0 1em 0;
+    padding: 1em 1em 1em 0em;
+}
+
+.direction {
+    text-decoration: none;
+    font-size: 1em;
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.direction img {
+    height: 1em;
+    margin-right: 0.40em;
 }
 
 
