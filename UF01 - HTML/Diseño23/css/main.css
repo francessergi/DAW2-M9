@@ -682,7 +682,7 @@ span {
         flex-direction: column;
         justify-content: space-around;
         color: white;
-        height: 80em;
+        height: 60em;
     }
     #home .content {
         width: 100%;
@@ -704,7 +704,7 @@ span {
         width: 80%;
         margin: unset;
         padding: 1em;
-        height: 40%;
+        max-height: 40%;
     }
     .house-container {
         width: 100%;
