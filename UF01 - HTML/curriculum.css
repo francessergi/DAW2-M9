@@ -1,0 +1,123 @@
+body {
+    background: rgb(211, 227, 210);
+    background: linear-gradient(125deg, rgba(211, 227, 210, 1) 0%, rgba(219, 254, 201, 1) 66%, rgba(118, 247, 208, 0.9710259103641457) 100%);
+}
+
+main {
+    height: 58.75rem;
+    width: 56.25rem;
+    background-color: rgb(236, 234, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img {
+    height: 1em;
+    width: auto;
+}
+
+h2 {
+    color: #13a7d8;
+}
+
+aside {
+    background-color: #25a0d1;
+    float: left;
+    color: white;
+    width: 30%;
+    height: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+aside header {
+    text-align: center;
+}
+
+#nombre {
+    padding-top: 2.875rem;
+    padding-bottom: 0.9375rem;
+    margin-bottom: 2em;
+}
+
+#contacto {
+    padding-bottom: 1.875rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+aside p,
+address {
+    padding-left: 1.875rem;
+}
+
+a {
+    color: white;
+}
+
+.fotoperfil {
+    height: 8.75rem;
+    width: auto;
+    border-radius: 50%;
+}
+
+#redes {
+    margin-top: 4em;
+}
+
+.derecha {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    font-size: small;
+}
+
+.habcon {
+    display: flex;
+    margin-left: 3em;
+}
+
+.Habilidades {
+    width: 12.5rem;
+    margin-left: 4em;
+}
+
+.Conocimientos {
+    width: 19rem;
+    border: 2px solid red;
+    padding: 1em;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+}
+
+hr {
+    align-self: center;
+    width: 60%;
+}
+
+section#uno {
+    margin-top: 7em;
+}
+
+#uno,
+#dos,
+#cuatro {
+    padding-bottom: 0.625rem;
+    margin-left: 3em;
+}
+
+#cuatro {
+    padding-top: 0.625rem;
+}
+
+#puestoreciente {
+    padding-bottom: 0.3125rem;
+}
