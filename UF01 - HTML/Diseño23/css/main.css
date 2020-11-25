@@ -176,7 +176,7 @@ header {
 }
 
 
-/* ####### FORMULARI ####### */
+/* ####### FORMULARIÂ ####### */
 
 .form-container h3 {
     font-size: 1.5em;
@@ -682,7 +682,7 @@ span {
         flex-direction: column;
         justify-content: space-around;
         color: white;
-        height: 55em;
+        height: 80em;
     }
     #home .content {
         width: 100%;
