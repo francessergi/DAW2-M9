@@ -15,7 +15,8 @@ body {
     padding: 1em;
 }
 
-hgroup {
+header {
+    display: flex;
     box-shadow: 17px 20px 28px #88887B;
     background-color: #41C8C2;
     padding: 1.3em;
@@ -24,6 +25,41 @@ hgroup {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hgroup {
+    vertical-align: middle;
+}
+
+.perfil {
+    width: 5em;
+    height: auto;
+    border-radius: 50%;
+    margin: 0;
+    border: 2px solid;
+}
+
+.me {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.me p {
+    background-color: #4B98CF;
+    padding: 0.5em;
+    color: white;
+    border: 1px solid;
+    margin-top: -9.5px;
+    text-transform: uppercase;
+}
+
+.perfil:hover {
+    border: 2px solid red;
+    cursor: pointer;
 }
 
 p {
@@ -76,7 +112,6 @@ a.fill-div {
     text-decoration: none;
     align-items: center;
     color: white;
-    text-decoration: none;
     font-size: 2em;
 }
 
@@ -106,6 +141,12 @@ img {
     }
     a {
         justify-content: center;
+    }
+    header {
+        font-size: small;
+    }
+    .me p {
+        display: none;
     }
 }
 
