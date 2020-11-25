@@ -636,7 +636,7 @@ span {
 
 @media screen and (max-width: 64em) {
     #home .form-container {
-    width: 55%;
+        width: 55%;
     }
     #clients {
         margin-bottom: 7%;
@@ -680,9 +680,9 @@ span {
     }
     #home {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         color: white;
-        height: 44em;
+        height: 55em;
     }
     #home .content {
         width: 100%;
@@ -704,7 +704,6 @@ span {
         width: 80%;
         margin: unset;
         padding: 1em;
-        height: 40%;
     }
     .house-container {
         width: 100%;
