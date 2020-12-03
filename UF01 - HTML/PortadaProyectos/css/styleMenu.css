@@ -33,35 +33,6 @@ hgroup {
     vertical-align: middle;
 }
 
-.perfil {
-    width: 5em;
-    height: 5em;
-    border-radius: 50%;
-    margin: 0;
-    border: 2px solid;
-}
-
-.me {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.me p {
-    background-color: #4B98CF;
-    padding: 0.5em;
-    color: white;
-    border: 1px solid;
-    margin-top: -9.5px;
-    text-transform: uppercase;
-}
-
-.perfil:hover {
-    border: 2px solid red;
-    cursor: pointer;
-}
-
 p {
     font-size: 0.6em;
 }
