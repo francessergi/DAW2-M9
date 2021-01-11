@@ -18,6 +18,11 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
 
 /*######################### HEADER #######################*/
 
@@ -215,6 +220,18 @@ hr {
     background: transparent;
     border: none;
     color: white;
+    padding-left: 4px;
+}
+
+
+/* Input transparente una vez introducido el texto */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s;
+    -webkit-text-fill-color: #fff !important;
 }
 
 #home input[type=submit] {
@@ -268,6 +285,7 @@ select {
     margin-bottom: 9.375em;
     width: 100%;
     display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .profile {
@@ -479,6 +497,7 @@ span {
     justify-content: space-evenly;
     margin-top: -5%;
     width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .opinion {
@@ -729,6 +748,12 @@ span {
     }
     .opinion {
         width: 74%;
+    }
+    .mini-container {
+        width: 25%;
+    }
+    .gran-container {
+        width: 100%;
     }
 }
 
