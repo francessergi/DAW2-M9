@@ -762,16 +762,6 @@ span {
     }
 }
 
-@media screen and (max-width: 56em) {
-    #properties .inside {
-        width: 66%;
-        height: fit-content;
-    }
-    #properties article {
-        padding: 1em 4em 2em 0.8em;
-    }
-}
-
 #mediaelements {
     margin-bottom: 6em;
     justify-content: space-around;
@@ -784,4 +774,21 @@ iframe {
     border: none;
     width: 400px;
     height: 224px;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 56em) {
+    #properties .inside {
+        width: 66%;
+        height: fit-content;
+    }
+    #properties article {
+        padding: 1em 4em 2em 0.8em;
+    }
+    #mediaelements {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 38em;
+    }
 }
