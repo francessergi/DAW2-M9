@@ -770,7 +770,6 @@ span {
     #properties article {
         padding: 1em 4em 2em 0.8em;
     }
-<<<<<<< HEAD
 }
 
 #mediaelements {
@@ -780,12 +779,9 @@ span {
     display: flex;
 }
 
-video,
 iframe {
     box-shadow: 12px 11px 35px 9px;
     border: none;
     width: 400px;
     height: 224px;
-=======
->>>>>>> parent of fd7238d (new Media Content)
 }
