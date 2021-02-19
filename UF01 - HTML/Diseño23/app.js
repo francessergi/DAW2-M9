@@ -1,4 +1,4 @@
-var imatges = ["url(./img/casa1.jpg)", "url(./img/casa2.jpg)", "url(./img/casa3.jpg)", "url(./img/casa4.jpg)", "url(./img/casa5.jpg)", "url(./img/casa6.jpg)", ]
+var imatges = ["url(./img/casa1.png)", "url(./img/casa2.png)", "url(./img/casa3.png)", "url(./img/casa4.png)", "url(./img/casa5.png)", "url(./img/casa6.png)", ]
 
 var contador = 0;
 
