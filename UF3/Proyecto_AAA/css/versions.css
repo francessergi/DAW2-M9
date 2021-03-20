@@ -52,9 +52,9 @@ GRADIENTS
 **************************************/
 
 body.host_version .icon_wrap:hover,
-body.host_version .nav-pills > li.active > a,
-body.host_version .nav-pills > li.active > a:focus,
-body.host_version .nav-pills > li.active > a:hover,
+body.host_version .nav-pills>li.active>a,
+body.host_version .nav-pills>li.active>a:focus,
+body.host_version .nav-pills>li.active>a:hover,
 body.host_version .icon-wrapper:hover i,
 body.host_version .grd1 {
     color: #ffffff !important;
@@ -70,11 +70,11 @@ body.host_version .dmtop:hover,
 body.host_version .cac:hover,
 body.host_version .features-right li:hover i,
 body.host_version .features-left li:hover i,
-body.host_version .nav-pills > li:hover > a,
-body.host_version .nav-pills > li:focus > a,
-body.host_version .nav-pills > li.active > a,
-body.host_version .nav-pills > li.active > a:focus,
-body.host_version .nav-pills > li.active > a:hover,
+body.host_version .nav-pills>li:hover>a,
+body.host_version .nav-pills>li:focus>a,
+body.host_version .nav-pills>li.active>a,
+body.host_version .nav-pills>li.active>a:focus,
+body.host_version .nav-pills>li.active>a:hover,
 body.host_version .divider-bar,
 body.host_version .owl-next:hover i,
 body.host_version .owl-prev:hover i,
@@ -224,7 +224,7 @@ body.host_version .stat-wrap .effect-1:after {
     box-shadow: 0 0 0 2px #fff;
 }
 
-body.host_version .header_style_01 .navbar-default .navbar-nav > li > a {
+body.host_version .header_style_01 .navbar-default .navbar-nav>li>a {
     color: #1f1f1f !important;
 }
 
@@ -305,24 +305,23 @@ GRADIENTS
 body.seo_version .btn-buy:hover,
 body.seo_version .cac:hover,
 body.seo_version .icon_wrap:hover,
-body.seo_version .nav-pills > li.active > a,
-body.seo_version .nav-pills > li.active > a:focus,
-body.seo_version .nav-pills > li.active > a:hover,
+body.seo_version .nav-pills>li.active>a,
+body.seo_version .nav-pills>li.active>a:focus,
+body.seo_version .nav-pills>li.active>a:hover,
 body.seo_version .icon-wrapper:hover i,
 body.seo_version .grd1 {
     color: #ffffff;
-    background: #bac63e;    
+    background: #bac63e;
 }
-
 
 body.seo_version .dmtop:hover,
 body.seo_version .features-right li:hover i,
 body.seo_version .features-left li:hover i,
-body.seo_version .nav-pills > li:hover > a,
-body.seo_version .nav-pills > li:focus > a,
-body.seo_version .nav-pills > li.active > a,
-body.seo_version .nav-pills > li.active > a:focus,
-body.seo_version .nav-pills > li.active > a:hover,
+body.seo_version .nav-pills>li:hover>a,
+body.seo_version .nav-pills>li:focus>a,
+body.seo_version .nav-pills>li.active>a,
+body.seo_version .nav-pills>li.active>a:focus,
+body.seo_version .nav-pills>li.active>a:hover,
 body.seo_version .divider-bar,
 body.seo_version .owl-next:hover i,
 body.seo_version .owl-prev:hover i,
@@ -330,14 +329,13 @@ body.seo_version .icon-wrapper:hover i:hover,
 body.seo_version .grd1:hover,
 body.seo_version .grd1:focus {
     background-position: 100px;
-    color: #ffffff;    
-	background: #121212;
+    color: #ffffff;
+    background: #121212;
 }
 
-body.seo_version .icon_wrap{
-	background-color: #121212;
+body.seo_version .icon_wrap {
+    background-color: #121212;
 }
-
 
 body.seo_version .navbar-nav span {
     color: #ffda44 !important;
@@ -424,7 +422,7 @@ body.seo_version .btn-light {
 body.seo_version .btn-light i {
     margin-right: 5px;
     vertical-align: middle;
-	font-size: 22px;
+    font-size: 22px;
 }
 
 body.seo_version .effect-1:after {
@@ -644,7 +642,7 @@ body.seo_version .seo-services {
 body.seo_version .seo-services p.lead {
     margin-bottom: 0;
     padding-bottom: 0;
-	font-size: 16px;
+    font-size: 16px;
 }
 
 body.seo_version .seo-services h4 {
@@ -732,7 +730,7 @@ body.seo_version .first-section {
     padding: 14em 0 10em;
 }
 
-body.seo_version .first-section h2 {
+body.seo_version .first-section h1 {
     color: #ffffff;
     display: block;
     font-size: 56px;
@@ -836,9 +834,9 @@ GRADIENTS
 **************************************/
 
 body.watch_version .icon_wrap:hover,
-body.watch_version .nav-pills > li.active > a,
-body.watch_version .nav-pills > li.active > a:focus,
-body.watch_version .nav-pills > li.active > a:hover,
+body.watch_version .nav-pills>li.active>a,
+body.watch_version .nav-pills>li.active>a:focus,
+body.watch_version .nav-pills>li.active>a:hover,
 body.watch_version .icon-wrapper:hover i,
 body.watch_version .grd1 {
     color: #ffffff;
@@ -854,11 +852,11 @@ body.watch_version .dmtop:hover,
 body.watch_version .cac:hover,
 body.watch_version .features-right li:hover i,
 body.watch_version .features-left li:hover i,
-body.watch_version .nav-pills > li:hover > a,
-body.watch_version .nav-pills > li:focus > a,
-body.watch_version .nav-pills > li.active > a,
-body.watch_version .nav-pills > li.active > a:focus,
-body.watch_version .nav-pills > li.active > a:hover,
+body.watch_version .nav-pills>li:hover>a,
+body.watch_version .nav-pills>li:focus>a,
+body.watch_version .nav-pills>li.active>a,
+body.watch_version .nav-pills>li.active>a:focus,
+body.watch_version .nav-pills>li.active>a:hover,
 body.watch_version .divider-bar,
 body.watch_version .owl-next:hover i,
 body.watch_version .owl-prev:hover i,
@@ -952,7 +950,7 @@ body.watch_version .first-section {
     padding: 16em 0;
 }
 
-body.watch_version .header_style_01 .navbar-default .navbar-nav > li > a {
+body.watch_version .header_style_01 .navbar-default .navbar-nav>li>a {
     color: #000 !important;
 }
 
@@ -1002,9 +1000,9 @@ GRADIENTS
 body.app_version .btn-buy:hover,
 body.app_version .cac:hover,
 body.app_version .icon_wrap:hover,
-body.app_version .nav-pills > li.active > a,
-body.app_version .nav-pills > li.active > a:focus,
-body.app_version .nav-pills > li.active > a:hover,
+body.app_version .nav-pills>li.active>a,
+body.app_version .nav-pills>li.active>a:focus,
+body.app_version .nav-pills>li.active>a:hover,
 body.app_version .icon-wrapper:hover i,
 body.app_version .grd1 {
     color: #ffffff;
@@ -1021,11 +1019,11 @@ body.app_version .dmtop:hover,
 body.app_version .cac,
 body.app_version .features-right li:hover i,
 body.app_version .features-left li:hover i,
-body.app_version .nav-pills > li:hover > a,
-body.app_version .nav-pills > li:focus > a,
-body.app_version .nav-pills > li.active > a,
-body.app_version .nav-pills > li.active > a:focus,
-body.app_version .nav-pills > li.active > a:hover,
+body.app_version .nav-pills>li:hover>a,
+body.app_version .nav-pills>li:focus>a,
+body.app_version .nav-pills>li.active>a,
+body.app_version .nav-pills>li.active>a:focus,
+body.app_version .nav-pills>li.active>a:hover,
 body.app_version .divider-bar,
 body.app_version .owl-next:hover i,
 body.app_version .owl-prev:hover i,
@@ -1432,9 +1430,9 @@ body.clinic_version .hc.colon2,
 body.clinic_version .btn-buy:hover,
 body.clinic_version .cac:hover,
 body.clinic_version .icon_wrap:hover,
-body.clinic_version .nav-pills > li.active > a,
-body.clinic_version .nav-pills > li.active > a:focus,
-body.clinic_version .nav-pills > li.active > a:hover,
+body.clinic_version .nav-pills>li.active>a,
+body.clinic_version .nav-pills>li.active>a:focus,
+body.clinic_version .nav-pills>li.active>a:hover,
 body.clinic_version .icon-wrapper:hover i,
 body.clinic_version .grd1 {
     color: #ffffff;
@@ -1451,11 +1449,11 @@ body.clinic_version .icon_wrap,
 body.clinic_version .dmtop:hover,
 body.clinic_version .features-right li:hover i,
 body.clinic_version .features-left li:hover i,
-body.clinic_version .nav-pills > li:hover > a,
-body.clinic_version .nav-pills > li:focus > a,
-body.clinic_version .nav-pills > li.active > a,
-body.clinic_version .nav-pills > li.active > a:focus,
-body.clinic_version .nav-pills > li.active > a:hover,
+body.clinic_version .nav-pills>li:hover>a,
+body.clinic_version .nav-pills>li:focus>a,
+body.clinic_version .nav-pills>li.active>a,
+body.clinic_version .nav-pills>li.active>a:focus,
+body.clinic_version .nav-pills>li.active>a:hover,
 body.clinic_version .divider-bar,
 body.clinic_version .owl-next:hover i,
 body.clinic_version .owl-prev:hover i,
@@ -1484,11 +1482,11 @@ body.clinic_version .header_style_01 {
     background-color: #ffffff;
 }
 
-body.clinic_version .header_style_01 .navbar-default .navbar-nav > li > a {
+body.clinic_version .header_style_01 .navbar-default .navbar-nav>li>a {
     color: #1f1f1f !important;
 }
 
-body.clinic_version .header_style_01 .navbar-default .navbar-right > li > a {
+body.clinic_version .header_style_01 .navbar-default .navbar-right>li>a {
     color: #ffffff !important;
     opacity: 1;
 }
@@ -1599,13 +1597,13 @@ body.clinic_version .nav-pills {
     border-radius: 0;
 }
 
-body.clinic_version .nav-pills > li > a {
+body.clinic_version .nav-pills>li>a {
     background-color: #f2f3f5;
     border-radius: 0 !important;
     text-align: left;
 }
 
-body.clinic_version .nav-pills > li {
+body.clinic_version .nav-pills>li {
     text-align: left !important;
     float: none;
     margin: 0 !important;
@@ -1764,9 +1762,9 @@ GRADIENTS
 **************************************/
 
 body.realestate_version .icon_wrap:hover,
-body.realestate_version .nav-pills > li.active > a,
-body.realestate_version .nav-pills > li.active > a:focus,
-body.realestate_version .nav-pills > li.active > a:hover,
+body.realestate_version .nav-pills>li.active>a,
+body.realestate_version .nav-pills>li.active>a:focus,
+body.realestate_version .nav-pills>li.active>a:hover,
 body.realestate_version .icon-wrapper:hover i,
 body.realestate_version .grd1 {
     color: #ffffff;
@@ -1782,11 +1780,11 @@ body.realestate_version .dmtop:hover,
 body.realestate_version .cac:hover,
 body.realestate_version .features-right li:hover i,
 body.realestate_version .features-left li:hover i,
-body.realestate_version .nav-pills > li:hover > a,
-body.realestate_version .nav-pills > li:focus > a,
-body.realestate_version .nav-pills > li.active > a,
-body.realestate_version .nav-pills > li.active > a:focus,
-body.realestate_version .nav-pills > li.active > a:hover,
+body.realestate_version .nav-pills>li:hover>a,
+body.realestate_version .nav-pills>li:focus>a,
+body.realestate_version .nav-pills>li.active>a,
+body.realestate_version .nav-pills>li.active>a:focus,
+body.realestate_version .nav-pills>li.active>a:hover,
 body.realestate_version .divider-bar,
 body.realestate_version .owl-next:hover i,
 body.realestate_version .owl-prev:hover i,
@@ -2047,9 +2045,9 @@ GRADIENTS
 **************************************/
 
 body.politics_version .icon_wrap:hover,
-body.politics_version .nav-pills > li.active > a,
-body.politics_version .nav-pills > li.active > a:focus,
-body.politics_version .nav-pills > li.active > a:hover,
+body.politics_version .nav-pills>li.active>a,
+body.politics_version .nav-pills>li.active>a:focus,
+body.politics_version .nav-pills>li.active>a:hover,
 body.politics_version .icon-wrapper:hover i,
 body.politics_version .grd1 {
     color: #ffffff;
@@ -2065,11 +2063,11 @@ body.politics_version .dmtop:hover,
 body.politics_version .cac:hover,
 body.politics_version .features-right li:hover i,
 body.politics_version .features-left li:hover i,
-body.politics_version .nav-pills > li:hover > a,
-body.politics_version .nav-pills > li:focus > a,
-body.politics_version .nav-pills > li.active > a,
-body.politics_version .nav-pills > li.active > a:focus,
-body.politics_version .nav-pills > li.active > a:hover,
+body.politics_version .nav-pills>li:hover>a,
+body.politics_version .nav-pills>li:focus>a,
+body.politics_version .nav-pills>li.active>a,
+body.politics_version .nav-pills>li.active>a:focus,
+body.politics_version .nav-pills>li.active>a:hover,
 body.politics_version .divider-bar,
 body.politics_version .owl-next:hover i,
 body.politics_version .owl-prev:hover i,
@@ -2121,7 +2119,7 @@ body.politics_version .header_style_01 {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-body.politics_version .header_style_01 .navbar-default .navbar-nav > li > a {
+body.politics_version .header_style_01 .navbar-default .navbar-nav>li>a {
     text-transform: uppercase;
 }
 
@@ -2276,9 +2274,9 @@ GRADIENTS
 **************************************/
 
 body.barber_version .icon_wrap:hover,
-body.barber_version .nav-pills > li.active > a,
-body.barber_version .nav-pills > li.active > a:focus,
-body.barber_version .nav-pills > li.active > a:hover,
+body.barber_version .nav-pills>li.active>a,
+body.barber_version .nav-pills>li.active>a:focus,
+body.barber_version .nav-pills>li.active>a:hover,
 body.barber_version .icon-wrapper:hover i,
 body.barber_version .grd1 {
     color: #ffffff;
@@ -2295,11 +2293,11 @@ body.barber_version .dmtop:hover,
 body.barber_version .cac:hover,
 body.barber_version .features-right li:hover i,
 body.barber_version .features-left li:hover i,
-body.barber_version .nav-pills > li:hover > a,
-body.barber_version .nav-pills > li:focus > a,
-body.barber_version .nav-pills > li.active > a,
-body.barber_version .nav-pills > li.active > a:focus,
-body.barber_version .nav-pills > li.active > a:hover,
+body.barber_version .nav-pills>li:hover>a,
+body.barber_version .nav-pills>li:focus>a,
+body.barber_version .nav-pills>li.active>a,
+body.barber_version .nav-pills>li.active>a:focus,
+body.barber_version .nav-pills>li.active>a:hover,
 body.barber_version .divider-bar,
 body.barber_version .owl-next:hover i,
 body.barber_version .owl-prev:hover i,
@@ -2625,9 +2623,9 @@ GRADIENTS
 body.building_version .btn-buy:hover,
 body.building_version .cac:hover,
 body.building_version .icon_wrap:hover,
-body.building_version .nav-pills > li.active > a,
-body.building_version .nav-pills > li.active > a:focus,
-body.building_version .nav-pills > li.active > a:hover,
+body.building_version .nav-pills>li.active>a,
+body.building_version .nav-pills>li.active>a:focus,
+body.building_version .nav-pills>li.active>a:hover,
 body.building_version .icon-wrapper:hover i,
 body.building_version .grd1 {
     color: #000 !important;
@@ -2644,11 +2642,11 @@ body.building_version .icon_wrap,
 body.building_version .dmtop:hover,
 body.building_version .features-right li:hover i,
 body.building_version .features-left li:hover i,
-body.building_version .nav-pills > li:hover > a,
-body.building_version .nav-pills > li:focus > a,
-body.building_version .nav-pills > li.active > a,
-body.building_version .nav-pills > li.active > a:focus,
-body.building_version .nav-pills > li.active > a:hover,
+body.building_version .nav-pills>li:hover>a,
+body.building_version .nav-pills>li:focus>a,
+body.building_version .nav-pills>li.active>a,
+body.building_version .nav-pills>li.active>a:focus,
+body.building_version .nav-pills>li.active>a:hover,
 body.building_version .divider-bar,
 body.building_version .owl-next:hover i,
 body.building_version .owl-prev:hover i,
@@ -2685,14 +2683,14 @@ body.building_version .header_style_01 {
     position: relative;
 }
 
-body.building_version .header_style_01 .navbar-default .navbar-nav > li > a {
+body.building_version .header_style_01 .navbar-default .navbar-nav>li>a {
     color: #ffffff !important;
 }
 
-body.building_version .header_style_01 .navbar-default .navbar-nav > li.active a,
-body.building_version .header_style_01 .navbar-default .navbar-nav > li:hover a,
-body.building_version .header_style_01 .navbar-default .navbar-nav > li:focus a,
-body.building_version .header_style_01 .navbar-default .navbar-nav > li:active a {
+body.building_version .header_style_01 .navbar-default .navbar-nav>li.active a,
+body.building_version .header_style_01 .navbar-default .navbar-nav>li:hover a,
+body.building_version .header_style_01 .navbar-default .navbar-nav>li:focus a,
+body.building_version .header_style_01 .navbar-default .navbar-nav>li:active a {
     color: #fcdb08 !important;
 }
 
