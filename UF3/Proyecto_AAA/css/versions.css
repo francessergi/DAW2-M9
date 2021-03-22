@@ -290,12 +290,13 @@ body.seo_version .navbar-nav span {
     color: #bac63e;
 }
 
-body.seo_version .lead strong,
+
+/* body.seo_version .lead strong,
 body.seo_version .icon-wrapper:hover a,
 body.seo_version a:hover,
 body.seo_version a:focus {
     color: #ffda44
-}
+} */
 
 
 /**************************************
@@ -434,20 +435,20 @@ body.seo_version .cac a h3,
 body.seo_version .footer-distributed form input,
 body.seo_version .footer-distributed .footer-company-name,
 body.seo_version .footer {
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.seo_version .footer-distributed form input::-webkit-input-placeholder {
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.seo_version .footer-distributed form input::-moz-placeholder {
     opacity: 1;
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.seo_version .footer-distributed form input:-ms-input-placeholder {
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.seo_version .noover {
@@ -547,7 +548,7 @@ body.seo_version .section .section-title h3 {
 body.seo_version .message-box h4,
 body.seo_version .section-title small {
     font-size: 15px;
-    color: #999;
+    color: black;
     letter-spacing: 1px;
     padding-bottom: 0px;
     display: block;
@@ -865,7 +866,7 @@ body.watch_version .grd1:hover,
 body.watch_version .grd1:focus {
     background-position: 100px;
     color: #ffffff;
-    background: #2750ff;
+    background: #2246de;
     background: -moz-linear-gradient(left, #2196F3 0%, #1976D2 100%);
     background: -webkit-linear-gradient(left, #2196F3 0%, #1976D2 100%);
     background: linear-gradient(to right, #2196F3 0%, #1976D2 100%);
@@ -960,7 +961,7 @@ body.watch_version .first-section h2 {
 }
 
 body.watch_version .first-section .lead {
-    color: #999;
+    color: black;
 }
 
 body.watch_version .btn-dark {
@@ -1101,20 +1102,20 @@ body.app_version .cac a h3,
 body.app_version .footer-distributed form input,
 body.app_version .footer-distributed .footer-company-name,
 body.app_version .footer {
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.app_version .footer-distributed form input::-webkit-input-placeholder {
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.app_version .footer-distributed form input::-moz-placeholder {
     opacity: 1;
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.app_version .footer-distributed form input:-ms-input-placeholder {
-    color: #736e78;
+    color: #5b575f;
 }
 
 body.app_version .noover {
@@ -1525,7 +1526,7 @@ body.clinic_version .first-section h2 {
 }
 
 body.clinic_version .first-section .lead {
-    color: #999999;
+    color: black;
 }
 
 body.clinic_version .how-its-work .hc {
@@ -1863,7 +1864,7 @@ body.realestate_version .social-links i {
 
 body.realestate_version .section-title small {
     font-size: 15px;
-    color: #999;
+    color: black;
     letter-spacing: 1px;
     padding-bottom: 0px;
     display: block;
@@ -1905,7 +1906,7 @@ body.realestate_version .agencies_meta span {
 }
 
 body.realestate_version .agencies_meta span a {
-    color: #999999;
+    color: black;
 }
 
 body.realestate_version .agencies_meta span i {
@@ -2457,7 +2458,7 @@ body.barber_version .sidebar-nav li {
 body.barber_version .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: black;
 }
 
 body.barber_version .sidebar-nav li a:hover {
