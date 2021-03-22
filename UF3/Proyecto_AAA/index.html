@@ -35,9 +35,12 @@
 </head>
 
 <body class="seo_version">
-    <button href="#pricing" role="button">Skip to main content</button>
+    <section>
+        <a href="#pricing" id="skip" aria-labelledby="skip">Skip to main content</a>
+    </section>
+
     <!-- LOADER -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div id="cupcake" class="box">
             <span class="letter">L</span>
             <div class="cupcakeCircle box">
@@ -51,13 +54,13 @@
             <span class="letter box">N</span>
             <span class="letter box">G</span>
         </div>
-    </div>
+    </div> -->
     <!-- END LOADER -->
 
     <header class="header header_style_01">
-        <nav class="megamenu navbar navbar-default">
+        <article class="megamenu navbar navbar-default" aria-labelledby="navbar">
             <div class="container">
-                <div class="navbar-header">
+                <header class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -65,8 +68,8 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="index.html"><img src="images/logos/logo-seo.png" alt="image"></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
+                </header>
+                <nav id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right hidden-md hidden-sm hidden-xs">
                         <li>
                             <a class="btn-light btn-radius btn-brd top-btn" href="#">
@@ -82,31 +85,31 @@
                         <li><a href="#pricing">Pricing</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
-        </nav>
+        </article>
     </header>
 
-    <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/parallax_12.jpg');">
-        <div class="container" role="contentinfo">
+    <article id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/parallax_12.jpg');" aria-labelledby="home">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <section class="col-md-6 col-sm-12">
                     <div class="big-tagline">
                         <h1>Increase Your Ranking<br> on Search Engines</h1>
                         <p class="lead">With FLaxSEO responsive landing page template, you can showcase your awesome seo services!
                         </p>
                         <a href="#support" class="btn btn-light btn-radius btn-brd ban-btn">Free SEO Analysis</a>
                     </div>
-                </div>
+                </section>
 
-                <div class="app_iphone_02 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.5s">
+                <aside class="app_iphone_02 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.5s">
                     <img src="uploads/rocket.png" alt="rocket" class="img-responsive">
-                </div>
+                </aside>
             </div>
             <!-- end row -->
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end section -->
 
     <svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
@@ -134,10 +137,10 @@
         </path>
     </svg>
 
-    <div id="about" class="section wb nopadtop">
-        <div class="container" role="contentinfo">
+    <article id="about" class="section wb nopadtop" aria-labelledby="about">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <section class="col-md-6">
                     <div class="post-media wow fadeIn">
                         <img src="uploads/about_01.jpg" alt="about" class="img-responsive img-rounded">
                         <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton">
@@ -145,16 +148,16 @@
                         </a>
                     </div>
                     <!-- end media -->
-                </div>
+                </section>
                 <!-- end col -->
 
                 <div class="col-md-6 m40">
-                    <div class="message-box">
+                    <section class="message-box">
                         <h4>Awards Winning SEO Company</h4>
                         <h2>We Are FlaxSeo</h2>
                         <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
 
-                        <div class="skills">
+                        <section class="skills">
                             <div class="skills-wrapper">
                                 <h3>Search Engine Optimization</h3>
                                 <progress value="78" max="100"> 78% </progress>
@@ -179,9 +182,9 @@
                                 <progress value="80" max="100"> 80% </progress>
                             </div>
                             <!-- end skills-wrapper -->
-                        </div>
+                        </section>
                         <!-- end skills -->
-                    </div>
+                    </section>
                     <!-- end messagebox -->
                 </div>
                 <!-- end col -->
@@ -190,57 +193,57 @@
 
             <hr class="hr1">
 
-            <div class="section-title text-center">
+            <section class="section-title text-center">
                 <div>The Landigoo SEO Market</div>
                 <h3>Who We Are</h3>
                 <p class="lead">We offer unlimited solutions to all your business needs. in the installation package we prepare search engine optimization, social media support, we provide corporate identity and graphic design services.</p>
-            </div>
+            </section>
             <!-- end title -->
 
-            <div class="seo-services row clearfix">
-                <div class="col-md-3 col-sm-6 col-xs-12">
+            <article class="seo-services row clearfix" id="seo-services" aria-labelledby="seo-services">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <div class="who">
                         <img src="images/seo-icons/growth.svg" alt="icon" class="wow fadeInUp">
                         <h4>Useful Dashboard</h4>
                         <p class="lead">Falaningo Ipsum dolroin gravida nibh vel velit aliquet. Aenean lorem quis dashboard..
                         </p>
                     </div>
-                </div>
+                </section>
                 <!-- end col -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <div class="who">
                         <img src="images/seo-icons/research.svg" alt="icon" class="wow fadeInUp">
                         <h4>Research Optimization</h4>
                         <p class="lead">Research Ipsum dolroin gravida nibh vel velit aliquet. Aenean lorem quis optimization..
                         </p>
                     </div>
-                </div>
+                </section>
                 <!-- end col -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <div class="who">
                         <img src="images/seo-icons/stopwatch.svg" alt="icon" class="wow fadeInUp">
                         <h4>Save Time + Money</h4>
                         <p class="lead">Save Ipsum dolroin gravida nibh vel velit aliquet. Aenean sollicitudin lorem quis money..</p>
                     </div>
-                </div>
+                </section>
                 <!-- end col -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <div class="who">
                         <img src="images/seo-icons/development.svg" alt="icon" class="wow fadeInUp">
                         <h4>Ranking Monitoring</h4>
                         <p class="lead">Monitoring Ipsum dolroin gravida nibh vel velit aliquet. Aenean sollicitudin ranking..
                         </p>
                     </div>
-                </div>
+                </section>
                 <!-- end col -->
-            </div>
+            </article>
             <!-- end how-its-work -->
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end section -->
 
     <section class="section nopad cac text-center">
@@ -249,7 +252,7 @@
         </a>
     </section>
 
-    <div id="services" class="section lb" role="contentinfo">
+    <article id="services" class="section lb" aria-labelledby="services">
         <div class="container">
             <div class="section-title text-center">
                 <div>OnePage SEO - Validation - BACKLINKS</div>
@@ -338,10 +341,10 @@
             <!-- end row -->
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end section -->
 
-    <div id="case" class="section wb" role="contentinfo">
+    <article id="case" class="section wb" aria-labelledby="case">
         <div class="container">
             <div class="section-title text-center">
                 <div>Our Awesome Clients</div>
@@ -439,46 +442,46 @@
             <!-- end owl -->
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end section -->
 
-    <div class="parallax section lb" role="contentinfo">
+    <div class="parallax section lb">
         <div class="container">
             <div class="row text-center stat-wrap">
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <span data-scroll class="global-radius icon_wrap effect-1">
                         <div class="flaticon-briefcase"></div>
                     </span>
                     <p class="stat_count">1200</p>
                     <h3>Complated Projects</h3>
-                </div>
+                </section>
                 <!-- end col -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <span data-scroll class="global-radius icon_wrap effect-1">
                         <div class="flaticon-happy"></div>
                     </span>
                     <p class="stat_count">3210</p>
                     <h3>Happy Clients</h3>
-                </div>
+                </section>
                 <!-- end col -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <span data-scroll class="global-radius icon_wrap effect-1">
                         <div class="flaticon-idea"></div>
                     </span>
                     <p class="stat_count">3781</p>
                     <h3>Customer Services</h3>
-                </div>
+                </section>
                 <!-- end col -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <section class="col-md-3 col-sm-6 col-xs-12">
                     <span data-scroll class="global-radius icon_wrap effect-1">
                         <div class="flaticon-customer-service"></div>
                     </span>
                     <p class="stat_count">4300</p>
                     <h3>Answered Questions</h3>
-                </div>
+                </section>
                 <!-- end col -->
             </div>
             <!-- end row -->
@@ -487,7 +490,7 @@
     </div>
     <!-- end section -->
 
-    <div id="pricing" class="section pricing-bg" role="contentinfo">
+    <article id="pricing" class="section pricing-bg" aria-labelledby="pricing">
         <div class="container">
             <div class="section-title text-center">
                 <h3>Ready to get started?</h3>
@@ -603,10 +606,10 @@
             <!-- end row -->
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end section -->
 
-    <div id="testimonials" class="section wb" role="contentinfo">
+    <article id="testimonials" class="section wb" aria-labelledby="testimonials">
         <div class="container">
             <div class="section-title text-center">
                 <h3>Happy Clients</h3>
@@ -727,10 +730,10 @@
             <!-- end row -->
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end section -->
 
-    <div id="support" class="section db" role="contentinfo">
+    <article id="support" class="section db" aria-labelledby="support">
         <div class="container">
             <div class="section-title text-center">
                 <h3>Clients Logo</h3>
@@ -738,7 +741,7 @@
             <!-- end title -->
 
             <div class="row">
-                <div id="logo-carousel" role="contentinfo" class="owl-carousel">
+                <div id="logo-carousel" class="owl-carousel">
                     <div> <img src="uploads/logo_01.png" alt="logo"> </div>
                     <div> <img src="uploads/logo_02.png" alt="logo"> </div>
                     <div> <img src="uploads/logo_03.png" alt="logo"> </div>
@@ -752,7 +755,7 @@
             <!-- end row -->
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end section -->
 
     <svg id="clouds1" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
@@ -879,7 +882,7 @@
     </footer>
     <!-- end footer -->
 
-    <div class="copyrights" role="contentinfo">
+    <article class="copyrights" id="copy" aria-labelledby="copy">
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
@@ -898,12 +901,12 @@
             </div>
         </div>
         <!-- end container -->
-    </div>
+    </article>
     <!-- end copyrights -->
 
-    <a href="#" id="scroll-to-top" role="contentinfo" class="dmtop global-radius">
+    <section href="#" id="scroll-to-top" class="dmtop global-radius">
         <div class="fa fa-angle-up"></div>
-    </a>
+    </section>
 
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>

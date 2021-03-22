@@ -47,7 +47,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999;
+    color: #040404;
     font-size: 15px;
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.7;
@@ -542,7 +542,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav>li a.active {
     background-color: #bac63e;
-    color: #ffffff;
+    color: #000000;
 }
 
 .header_style_01 .navbar-right>li {
@@ -588,7 +588,7 @@ li.social-links a {
 .header_style_01 .navbar-default .navbar-nav>li a.btn-light.top-btn {
     position: relative;
     line-height: 24px;
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
     font-weight: 700;
     padding: 9px 26px;
@@ -774,7 +774,7 @@ li.social-links a {
 }
 
 .section-title p {
-    color: #999;
+    color: black;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -1136,7 +1136,7 @@ body.seo_version .btn-light.ban-btn {
     border-bottom: 1px solid #ececec;
     font-weight: 300;
     line-height: 30px;
-    color: #c2c2c2;
+    color: #767676;
     font-size: 16px;
 }
 
@@ -1150,7 +1150,7 @@ body.seo_version .btn-light.ban-btn {
     text-align: left;
     line-height: 30px;
     font-size: 16px;
-    color: #c2c2c2;
+    color: #000000;
 }
 
 .pricing-table-features p {
@@ -1160,7 +1160,7 @@ body.seo_version .btn-light.ban-btn {
 
 .pricing-table-highlighted h3,
 .pricing-table-highlighted h2 {
-    color: #ffffff !important;
+    color: #4d4d4d !important;
 }
 
 .pricing-table-sign-up {
@@ -1387,7 +1387,7 @@ body.seo_version .btn-light.ban-btn {
     padding-top: 10px;
     font-size: 19px;
     font-style: italic;
-    color: #999;
+    color: #060606;
     padding-bottom: 0;
 }
 
@@ -2147,7 +2147,7 @@ select.mobile-device {
 }
 
 .footer .widget-title h3 {
-    color: #bac63e;
+    color: #747b27;
     font-weight: 500;
     font-size: 21px;
     padding: 0;
@@ -2289,7 +2289,7 @@ body.seo_version .footer-links a:hover {
 }
 
 .footer-distributed .footer-company-name a {
-    color: #111111;
+    color: #ff5722;
 }
 
 .footer-distributed .footer-company-name a:hover {
@@ -2327,14 +2327,14 @@ body.seo_version .footer-links a:hover {
 .social-md li a.tw {
     background: #00aced;
     display: block;
-    color: #ffffff !important;
+    color: #0c0c0c !important;
     padding: 5px 15px;
 }
 
 .social-md li a.dr {
     background: #ea4c89;
     display: block;
-    color: #ffffff !important;
+    color: #131313 !important;
     padding: 5px 15px;
 }
 
@@ -2380,7 +2380,7 @@ body.seo_version .footer-links a:hover {
 }
 
 .skills h3 {
-    color: #999999;
+    color: #000000;
     font-size: 15px;
 }
 
@@ -2422,10 +2422,10 @@ body.seo_version .footer-links a:hover {
 .stat-wrap h3 {
     font-size: 18px;
     font-weight: 400;
-    color: #999 !important;
+    color: #0c0c0c !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2434,7 +2434,7 @@ body.seo_version .footer-links a:hover {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
