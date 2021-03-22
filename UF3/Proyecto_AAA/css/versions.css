@@ -334,6 +334,16 @@ body.seo_version .grd1:focus {
     background: #121212;
 }
 
+.leaf {
+    background: #bac63e;
+}
+
+.leaf:hover {
+    background-position: 100px;
+    color: #ffffff;
+    background: #e99090;
+}
+
 body.seo_version .icon_wrap {
     background-color: #121212;
 }
